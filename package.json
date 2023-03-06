@@ -12,8 +12,8 @@
   "commands": [
     {
       "name": "index",
-      "title": "Chat",
-      "subtitle": "Ask ChatGPT",
+      "title": "Ask ChatGPT",
+      "subtitle": "From openai",
       "description": "Make requests to ChatGPT directly from Raycast!",
       "mode": "view"
     }
