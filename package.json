@@ -18,8 +18,18 @@
       "mode": "view"
     }
   ],
+  "preferences": [
+    {
+      "name": "openAiApiKey",
+      "title": "OpenAI API Key",
+      "description": "Used to authenticate with OpenAI API. Obtain it here https://platform.openai.com/account/api-keys",
+      "type": "password",
+      "required": true
+    }
+  ],
   "dependencies": {
-    "@raycast/api": "^1.48.5"
+    "@raycast/api": "^1.48.5",
+    "openai": "^3.2.1"
   },
   "devDependencies": {
     "@types/node": "18.8.3",
